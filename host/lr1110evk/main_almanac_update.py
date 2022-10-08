@@ -105,9 +105,9 @@ class ServerSolver:
 
 class GlsServerSolver(ServerSolver):
     HUMAN_READABLE_NAME = "GLS"
-    DEFAULT_DOMAIN = "https://gls.loracloud.com"
+    DEFAULT_DOMAIN = "https://mgs.loracloud.com"
     DEFAULT_PATH = "api/v3/almanac/full"
-    HEADER_AUTH_TOKEN = "Ocp-Apim-Subscription-Key"
+    HEADER_AUTH_TOKEN = "Authorization"
     HEADER_CONTENT_TYPE_TOKEN = "Content-Type"
 
 

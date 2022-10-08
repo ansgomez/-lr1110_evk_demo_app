@@ -103,7 +103,7 @@ class RequestWifiGls(RequestBase):
 
     def _to_json_dict(self):
         return {
-            "lorawan": [
+            "gatewayReceptions": [
                 {
                     "gatewayId": "00",
                     "rssi": 0,
